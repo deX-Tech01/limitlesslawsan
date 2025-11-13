@@ -1,0 +1,156 @@
+/* Top bar container */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #2a2d31; /* Facebook blue */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+  color: white;
+}
+
+/* Left side: logo + name */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.blog-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Right side: nav links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+main {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.button {
+  background-color: black;
+  color: white;
+  cursor:pointer;
+  padding: 12px 24px;
+  font-size: medium;
+}
+.button:hover {
+  background-color: #218838;
+}
+.Home_WhyChoose {
+background-color: black;
+color: white;
+padding: 20px;
+}
+.Home_WhyChoose_02 {
+  background-color: white;
+  color: black;
+  text-align: justify;
+  padding: 10px 20px;
+}
+.img_accesible {
+  background-color: green;
+  width: 40px;
+  height: auto;
+  
+}
+.Home_WhyChoose_03{
+  background-color: white;
+  padding-bottom: 10%;
+  color: black;
+  text-align: justify;
+  padding: 0 20px;
+}
+.img_quality{
+  width: 40px;
+  height: auto;
+}
+.Home_WhyChoose_04{
+  background-color: white;
+}
+.img_comprehensive {
+  width: 40px;
+  height: auto;
+}
+.Home_footer_1{
+  background-color: black;
+  color: white;
+}
+.footer-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.facebook-logo {
+  width: 20px;
+  height: auto;
+}
+.X-logo {
+  width: 20px;
+  height: auto;
+}
+.LinkedIn-logo {
+  width: 20px;
+  height: auto;
+}
+.Instagram-Logo {
+  width: 20px;
+  height: auto;
+}
+@media (min-width: 900px) {
+  main {
+    flex-direction: row;
+  }
+
+  .Home_WhyChoose {
+    flex: 1;
+  }
+  .Home_WhyChoose_02
+  flex: 1;
+}
+.footer_quick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  gap: 10px;
+}
+
+.footer_quick a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.footer_logo_box {
+  
+}
+.footer_blogname {
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer_social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  gap: 10px;
+}
